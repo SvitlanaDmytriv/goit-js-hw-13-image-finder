@@ -1,0 +1,45 @@
+.photo-card img {
+  margin-bottom: 15px;
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.gallery {
+  margin: 10px 0;
+  padding: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo-card {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  width: calc((100% - 80px) / 4);
+  margin: 10px;
+
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
+
+  transition: transform 250ms linear;
+}
+
+.photo-card:hover,
+.photo-card:focus {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.stats-item {
+  display: flex;
+  flex-direction: column;
+}

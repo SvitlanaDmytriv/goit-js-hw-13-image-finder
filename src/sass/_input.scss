@@ -1,0 +1,13 @@
+input {
+  padding: 5px 5px;
+
+  font-family: inherit;
+  font-size: inherit;
+  color: #000000;
+  font-weight: 300;
+}
+
+input::placeholder {
+  color: rgba(95, 94, 94, 0.35);
+  font-size: 20px;
+}
